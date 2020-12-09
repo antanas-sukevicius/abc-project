@@ -1,0 +1,47 @@
+body {background-color: rgb(240, 238, 238);}
+
+#main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 200px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.noselection{
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+
+                                    supported by Chrome, Edge, Opera and Firefox */
+
+  }
+
+  .scores {
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    position: absolute;
+    font-family: Impact;
+    /* background-color: rgb(221, 120, 120);*/
+  }
+
+  .circleBase {
+    border-radius: 100%;
+    behavior: url(PIE.htc);
+    width: 200px;
+    height: 200px;
+    background: rgb(41, 40, 38);
+    border: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+     /* remove if you don't care about IE8 */
+}
